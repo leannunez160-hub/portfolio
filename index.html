@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Leandro Duat's student portfolio featuring learning goals, skills, and projects.">
+  <title>Leandro Duat | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Leandro Duat home">LD<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-anchor" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> STUDENT PORTFOLIO</p>
+          <h1>Hi, I'm <span>Leandro Duat.</span></h1>
+          <h2>BSIT Student &amp; Aspiring Developer</h2>
+          <p class="hero-description">I'm learning how to build websites, applications, and interactive projects. This portfolio is a place to share what I'm learning and the projects I'm working on.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#about">Get to know me</a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span><p>Learning by building, one project at a time.</p></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative coding illustration">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-card-top"><span></span><span></span><span></span><small>hello-world.js</small></div>
+            <div class="code-lines" aria-hidden="true">
+              <p><span class="line-number">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+              <p><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="code-green">'Leandro'</span>,</p>
+              <p><span class="line-number">03</span>&nbsp;&nbsp;role: <span class="code-green">'Student'</span>,</p>
+              <p><span class="line-number">04</span>&nbsp;&nbsp;learning: <span class="code-green">'Every day'</span></p>
+              <p><span class="line-number">05</span>};</p>
+              <p class="code-last"><span class="line-number">06</span><span class="code-purple">keepLearning</span>(); <span class="cursor">▍</span></p>
+            </div>
+          </div>
+          <div class="floating-tag tag-top"><span>✦</span> Curious mind</div>
+          <div class="floating-tag tag-bottom"><span>⌘</span> Building skills</div>
+          <div class="hero-glow"></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 05</span></div>
+    </section>
+
+    <section class="section about-section section-anchor" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">01 — ABOUT ME</p>
+          <h2 class="section-title">A student with a <span>curious mind.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm a second-year Bachelor of Science in Information Technology (BSIT) student interested in technology, software, and creative problem-solving.</p>
+          <p>I'm still growing my skills, so I use class activities and personal projects to practice, learn from mistakes, and understand how things work. My goal is to keep improving and create useful, easy-to-use digital experiences.</p>
+          <div class="about-facts">
+            <div><span class="fact-icon">⌁</span><div><strong>Currently learning</strong><small>Programming &amp; web development</small></div></div>
+            <div><span class="fact-icon">◎</span><div><strong>My approach</strong><small>Practice, patience, and curiosity</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section section-anchor" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 — WHAT I'M LEARNING</p><h2 class="section-title">Skills &amp; tools</h2></div>
+          <p class="section-intro">A snapshot of the technologies and concepts I use or am practicing. This list should reflect my actual experience.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-symbol symbol-blue">&lt;/&gt;</div><h3>HTML &amp; CSS</h3><p>Building page structure and styling responsive layouts.</p><span class="skill-level">LEARNING</span></article>
+          <article class="skill-card"><div class="skill-symbol symbol-violet">{ }</div><h3>Java &amp; C#</h3><p>Practicing programming fundamentals and object-oriented concepts.</p><span class="skill-level">PRACTICING</span></article>
+          <article class="skill-card"><div class="skill-symbol symbol-green">⌘</div><h3>Git &amp; GitHub</h3><p>Learning to save project changes and publish work online.</p><span class="skill-level">LEARNING</span></article>
+          <article class="skill-card"><div class="skill-symbol symbol-orange">✳</div><h3>Problem Solving</h3><p>Breaking tasks into smaller steps and testing possible solutions.</p><span class="skill-level">DEVELOPING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section section-anchor" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 — SELECTED WORK</p><h2 class="section-title">Projects in progress<span>.</span></h2></div>
+          <p class="section-intro">School and practice projects that help me apply what I learn. I'll add screenshots and working links as they become available.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-task"><div class="mini-window"><div class="mini-window-bar"><i></i><i></i><i></i><span>my tasks</span></div><div class="mini-task checked"><b>✓</b><span>Finish assignment</span></div><div class="mini-task"><b></b><span>Review project</span></div><div class="mini-task"><b></b><span>Plan next steps</span></div></div><span class="visual-label">01 / WEB APP</span></div>
+            <div class="project-content"><div class="project-meta"><span>Laravel · MySQL</span><span class="project-state">Practice project</span></div><h3>Personal Task Manager</h3><p>A task management app concept for adding, editing, deleting, and updating the status of tasks.</p><div class="project-footer"><span>Routes · Controllers · Models</span><span class="project-arrow" aria-hidden="true">↗</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-check"><div class="check-logo"><span>✓</span><div><strong>CHECK IT OFF</strong><small>One task at a time.</small></div></div><div class="check-progress"><span></span><span></span><span></span><span></span></div><span class="visual-label">02 / STUDENT CONCEPT</span></div>
+            <div class="project-content"><div class="project-meta"><span>C# · HTML · CSS</span><span class="project-state">Capstone concept</span></div><h3>Check It Off</h3><p>A web-based to-do list concept for organizing tasks, setting priorities, and tracking progress.</p><div class="project-footer"><span>Planning · UI · Task tracking</span><span class="project-arrow" aria-hidden="true">↗</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-game"><div class="memory-board"><i class="circle circle-blue"></i><i class="circle circle-green"></i><i class="circle circle-red"></i><i class="circle circle-yellow"></i><i class="circle circle-purple"></i><i class="circle circle-cyan"></i></div><span class="visual-label">03 /BROWSER GAME</span></div>
+            <div class="project-content"><div class="project-meta"><span>HTML · JavaScript · JSON</span><span class="project-state">Game project</span></div><h3>Lost Souls: Echoes of Memory</h3><p>A memory game where players watch six colored circles light up in a sequence and repeat the pattern to test their memory.</p><div class="project-footer"><span>Memory sequence · Game UI · Logic</span><span class="project-arrow" aria-hidden="true">↗</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-anchor" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">04 — CONTACT</p>
+        <h2>Let's connect<span>.</span></h2>
+        <p>Thanks for taking the time to visit my portfolio. If you'd like to connect about my student projects or learning journey, feel free to send me an email.</p>
+        <a class="button button-light" id="email-link" href="mailto:leandro.duat.it@gmail.com">Send me an email <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="logo" href="#home">LD<span>.</span></a><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
